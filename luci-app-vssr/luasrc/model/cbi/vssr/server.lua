@@ -3,7 +3,6 @@
 local m, sec, o
 local vssr = 'vssr'
 local uci = luci.model.uci.cursor()
-local ipkg = require('luci.model.ipkg')
 
 m = Map(vssr, translate('vssr Server'))
 
