@@ -2,7 +2,7 @@
 
 ## 简介
 
-https://github.com/pexcn/openwrt-chinadns-ng/tree/luci
+此仓库克隆自：https://github.com/pexcn/openwrt-chinadns-ng/tree/luci
 
 本项目为 [openwrt-chinadns-ng](https://github.com/pexcn/openwrt-chinadns-ng) 提供 LuCI 接口。
 
@@ -13,7 +13,7 @@ https://github.com/pexcn/openwrt-chinadns-ng/tree/luci
 cd openwrt-sdk
 
 # 获取源码
-git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
+git clone https://github.com/izilzty/luci-app-chinadns-ng.git package/luci-app-chinadns-ng
 
 # 选中 LuCI -> Applications -> luci-app-chinadns-ng
 make menuconfig
